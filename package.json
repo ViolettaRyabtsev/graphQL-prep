@@ -1,0 +1,29 @@
+{
+  "name": "interview-prep",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViolettaRyabtsev/graphQL-prep.git"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "express": "^4.17.3",
+    "git": "^0.1.5",
+    "graphql": "^16.3.0",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "uuid": "^8.3.2"
+  }
+}
